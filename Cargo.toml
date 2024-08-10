@@ -4,7 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-a-dep = { path = "a-dep" }
+a-dep = { workspace = true }
 
 [workspace]
 members = ["a-dep"]
+
+[workspace.dependencies]
+a-dep = { path = "a-dep" }
