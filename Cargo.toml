@@ -1,12 +1,5 @@
-[package]
-name = "clippy-no-deps"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-a-dep = { workspace = true }
-
 [workspace]
+resolver = "2"
 members = ["a-dep", "b-dep"]
 
 [workspace.dependencies]

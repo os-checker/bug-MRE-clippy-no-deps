@@ -12,10 +12,3 @@ version = "0.1.0"
 dependencies = [
  "a-dep",
 ]
-
-[[package]]
-name = "clippy-no-deps"
-version = "0.1.0"
-dependencies = [
- "a-dep",
-]
