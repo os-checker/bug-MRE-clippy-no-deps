@@ -7,6 +7,13 @@ name = "a-dep"
 version = "0.1.0"
 
 [[package]]
+name = "b-dep"
+version = "0.1.0"
+dependencies = [
+ "a-dep",
+]
+
+[[package]]
 name = "clippy-no-deps"
 version = "0.1.0"
 dependencies = [

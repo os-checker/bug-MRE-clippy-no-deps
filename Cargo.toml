@@ -7,7 +7,8 @@ edition = "2021"
 a-dep = { workspace = true }
 
 [workspace]
-members = ["a-dep"]
+members = ["a-dep", "b-dep"]
 
 [workspace.dependencies]
 a-dep = { path = "a-dep" }
+b-dep = { path = "b-dep" }
