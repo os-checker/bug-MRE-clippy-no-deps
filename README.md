@@ -1,4 +1,6 @@
 
+Zulipchat: <https://rust-lang.zulipchat.com/#narrow/channel/257328-clippy/topic/unexpected.20results.20of.20clippy.20with.20.60--no-deps.60/near/459710102>
+
 # Output
 
 ```console
